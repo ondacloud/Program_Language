@@ -9,6 +9,8 @@ int main(){
 }
 ```
 
+<br>
+
 ## Output Funtion
 
 |Format Specifier|Description|
@@ -22,6 +24,7 @@ int main(){
 |%o|8진수|
 |%x|16진수|
 
+<br>
 
 ## Example
 ### Printf Structure - 1
