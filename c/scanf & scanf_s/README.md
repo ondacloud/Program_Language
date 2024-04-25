@@ -1,5 +1,5 @@
-# Scanf
-**Scanf란?**
+# Scanf & Scanf_s
+**Scanf & Scanf_s란?**
 키보드로부터 데이터를 입력받는 함수
 
 ## Scanf Basic Structure
@@ -29,3 +29,4 @@ int main(){
     return 0;
 }
 ```
+> scanf_s의 s는 secure의 약자입니다.
