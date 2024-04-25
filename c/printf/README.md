@@ -9,7 +9,7 @@ int main(){
 }
 ```
 
-## 
+## Output Funtion
 
 |Format Specifier|Description|
 |---|---|
