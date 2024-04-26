@@ -15,6 +15,7 @@
 |double|8 Byte|±1.7 x 10^−307 이상 ±1.7 x 10^308 이하|
 |long double| 8 Byte 이상|double 이상의 크기|
 
+<br>
 
 ## Arithmetic operator
 |Operator|Description|
