@@ -1,5 +1,5 @@
 # Scanf & Scanf_s
-**Scanf & Scanf_s란?**
+**Scanf & Scanf_s란?** <br>
 키보드로부터 데이터를 입력받는 함수
 
 ## Scanf Basic Structure
