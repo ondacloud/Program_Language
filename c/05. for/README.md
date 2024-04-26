@@ -19,8 +19,23 @@ int main(){
 
 <br>
 
+## For Loop Structure
+```c
+#include <stdio.h>
+
+int main(){
+    for (;;){
+        <Command>;
+        ...
+    }
+    return 0;
+}
+```
+
+<br>
+
 ## Example
-### For Sturcture
+### For Sturcture - 1
 ```c
 #include <stdio.h>
 
@@ -29,5 +44,22 @@ int main(){
         printf("%d\n", i);
         return 0;
     }
+}
+```
+
+### For Sturcture - 2
+```c
+#include <stdio.h>
+
+int main{
+    int i=0;
+    for(;;){
+        printf()
+        if (i <= 10){
+            break;
+        }
+        i++;
+    }
+    return 0;
 }
 ```
