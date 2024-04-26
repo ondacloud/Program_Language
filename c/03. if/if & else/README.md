@@ -1,15 +1,19 @@
-# IF
-**IF란?**
-조건이 참 일 때 실행되는 조건문 함수
+# IF & ELSE
+**IF & ELSE란?**
+조건이 참과 거짓일 때 실행되는 조건문 함수
 
 <br>
 
-## IF Basic Structure
+## IF & ELSE Basic Structure
 ```c
 #include <stdio.h>
 
 int main(){
     if (<Condition>){
+        <Command>;
+        ...
+    }
+    else {
         <Command>;
         ...
     }
@@ -30,6 +34,9 @@ int main(){
 
     if (a < 0){
         printf("successed")
+    }
+    else {
+        printf("failed")
     }
     return 0;
 }

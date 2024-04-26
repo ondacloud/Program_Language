@@ -30,3 +30,18 @@ int main(){
 }
 ```
 > scanf_s의 s는 secure의 약자입니다.
+
+<br>
+
+## precautions
+> %c or %s와 같이 문자나 문자열을 입력할 때는 아래와 같이 sizeof를 붙여주어야 합니다.
+```c
+#include <stdio.h>
+
+int main(){
+    char msg;
+    scanf_s("%s", &msg, sizeof(msg));
+    printf("%s", msg);
+    return 0;
+}
+```
