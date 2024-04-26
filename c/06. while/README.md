@@ -15,12 +15,27 @@ int main(){
     }
     return 0;
 }
-``` 
+```
+
+<br>
+
+## While Loop Structure
+```c
+#include <stdio.h>
+
+int main(){
+    while (1){
+        <Command>;
+        ...
+    }
+    return 0;
+}
+```
 
 <br>
 
 ## Example
-### While Sturcture
+### While Sturcture - 1
 ```c
 #include <stdio.h>
 
@@ -29,6 +44,24 @@ int main(){
     while (a <= 10) {
         printf("%d\n", a);
         a++;
+    }
+    return 0;
+}
+```
+
+### While Sturcture - 2
+```c
+#include <stdio.h>
+
+int main(){
+    int a=0;
+    while (1) {
+        printf("%d", a);
+        a++;
+
+        if (a <= 10){
+            break;
+        }
     }
     return 0;
 }
