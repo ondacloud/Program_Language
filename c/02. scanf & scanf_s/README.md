@@ -33,7 +33,7 @@ int main(){
 
 <br>
 
-## precautions
+## Precautions
 > %c or %s와 같이 문자나 문자열을 입력할 때는 아래와 같이 sizeof를 붙여주어야 합니다.
 ```c
 #include <stdio.h>
