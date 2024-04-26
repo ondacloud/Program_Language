@@ -12,7 +12,7 @@ int main(){
     <Function Name>();
 }
 
-<Data type> <Function Name>(<Variable>){
+<Data Type> <Function Name>(<Variable>){
     <Command>;
     ...
     return <Value>
