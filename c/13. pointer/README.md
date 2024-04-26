@@ -16,6 +16,8 @@ int main(){
 }
 ```
 
+<br>
+
 ## Example
 ### Pointer Structure
 ```c
