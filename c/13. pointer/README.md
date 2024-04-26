@@ -1,5 +1,5 @@
 # Pointer
-**Pointer란?**
+**Pointer란?** <br>
 메모리의 주소값을 저장하는 변수 / 포인터 변수
 
 <br>
