@@ -1,10 +1,10 @@
-# IF & ELSE
-**IF & ELSE란?** <br>
+# IF & ELSE IF & ELSE
+**IF & ELSE IF & ELSE?** <br>
 조건이 참과 거짓일 때 실행되는 조건문 함수
 
 <br>
 
-## IF & ELSE Basic Structure
+## IF & ELSE IF & ELSE Basic Structure
 ```c
 #include <stdio.h>
 
@@ -28,7 +28,7 @@ int main(){
 <br>
 
 ## Example
-### IF Sturecture
+### IF & ELSE IF & ELSE Sturecture
 ```c
 #include <stdio.h>
 

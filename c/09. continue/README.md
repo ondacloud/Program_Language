@@ -14,9 +14,7 @@ int main(){
         if (i <= 5){
             continue;
         }
-        else {
-            break;
-        }
+        printf("%d", i);
     }
     return 0;
 }

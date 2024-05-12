@@ -24,7 +24,7 @@ int main(){
 <br>
 
 ## Example
-### IF Sturecture
+### IF & ELSE Sturecture
 ```c
 #include <stdio.h>
 

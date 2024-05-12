@@ -4,7 +4,7 @@
 
 <br>
 
-## While Basic Sturcture
+## Do & While Basic Sturcture
 ```c
 #include <stdio.h>
 
