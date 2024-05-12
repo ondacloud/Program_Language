@@ -7,7 +7,7 @@
 
 ## Array Baic Structure
 ```python
-<Variable> = ([<Array Size>])
+<Variable> = [[<Array Size>]]
 ```
 
 <br>
