@@ -6,18 +6,13 @@
 <br>
 
 ## Array Baic Structure
-```c
-#include <stdio.h>
-
-int main(){
-    <Data Type> <Variable>[<Array Size>];
-    return 0;
-}
+```python
+<Variable> = ([<Array Size>])
 ```
 
 <br>
 
 ### Array List
-- [1 dimensional array](https://github.com/ondacloud/Program_Language/tree/main/c/11.%20array/1-dimensional%20array)
-- [2 dimensional array](https://github.com/ondacloud/Program_Language/tree/main/c/11.%20array/2-dimensional%20array)
-- [3 dimensional array](https://github.com/ondacloud/Program_Language/tree/main/c/11.%20array/3-dimensional%20array)
+- [1 dimensional array](https://github.com/ondacloud/Program_Language/tree/main/python/09.%20array/1-dimensional%20array)
+- [2 dimensional array](https://github.com/ondacloud/Program_Language/tree/main/python/09.%20array/2-dimensional%20array)
+- [3 dimensional array](https://github.com/ondacloud/Program_Language/tree/main/python/09.%20array/3-dimensional%20array)
