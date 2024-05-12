@@ -1,12 +1,12 @@
-## 3-Dimensional Array Baic Structure
+## 3-Dimensional List Baic Structure
 ```python
-<Variable> = [[<Array Size>], [<Array Size>], [<Array Size>]]
+<Variable> = [[<List Size>], [<List Size>], [<List Size>]]
 ```
 
 <br>
 
 ## Example
-### 3-Dimensional Array Structure
+### 3-Dimensional List Structure
 ```python
 a = [[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15]]]
 
