@@ -1,6 +1,19 @@
 # Operator
 
+## Data Type
+|Data Type|Desciption|
+|---|---|
+|int|정수형 숫자|
+|float|실수형 숫자|
+|string|문자열|
+|list|변경 가능한 순서가 있는 데이터 구조|
+|tuple|변경 불가능한 순서가 있는 데이터 구조|
+|Dictionary|값(key-value) 쌍으로 구성된 데이터 구조|
+
 <br>
+
+
+<br> 
 
 ## Arithmetic operator
 |Operator|Description|
