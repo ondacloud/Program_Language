@@ -8,7 +8,7 @@
 ```python
 try:
     <command>
-except <Exception Name> as e:
+except <Exception Name>:
     <command>
 finally:
     <command>
