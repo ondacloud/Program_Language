@@ -8,7 +8,7 @@
 ```python
 open(<File>, <Mode>, <Encoding>)
 ```
-> `File`: 열 파일의 경로 <br> Mode (선택적): 파일을 여는 모드 (기본값: "r" 읽기 모드) <br> `Encoding` (선택적): 텍스트 파일의 인코딩 방식 (예: "utf-8")
+> `File`: 열 파일의 경로 <br> `Mode` (선택적): 파일을 여는 모드 (기본값: "r" 읽기 모드) <br> `Encoding` (선택적): 텍스트 파일의 인코딩 방식 (예: "utf-8")
 
 <br>
 
