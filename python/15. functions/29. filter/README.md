@@ -1,5 +1,5 @@
 # Filter
-**Filter?** <br>
+**Filter란?** <br>
 주어진 함수에 의해 True로 평가되는 요소만 필터링하여 반환할 때 사용하는 함수
 
 <br>

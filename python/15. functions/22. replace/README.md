@@ -1,5 +1,5 @@
 # Replace
-**Replace?** <br>
+**Replace란?** <br>
 문자열에서 특정 부분을 다른 문자열로 바꿀 때 사용하는 메서드
 
 <br>
