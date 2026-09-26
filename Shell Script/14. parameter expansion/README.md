@@ -40,8 +40,4 @@ report
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../13.%20variable%20%26%20quoting/README.md) · [다음](../15.%20test%20%26%20comparison/README.md)

@@ -42,8 +42,4 @@ a\b c
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../16.%20logical%20operator%20%26%20exit%20status/README.md) · [다음](../18.%20pipe%20%26%20redirect/README.md)

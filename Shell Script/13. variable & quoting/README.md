@@ -38,8 +38,4 @@ name에 공백과 *를 넣어도 하나의 인수로 출력되는지 확인하�
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../12.%20array%20%26%20declare/README.md) · [다음](../14.%20parameter%20expansion/README.md)

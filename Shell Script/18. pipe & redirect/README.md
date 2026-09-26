@@ -38,8 +38,4 @@ fi
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../17.%20set%20%26%20positional%20parameters/README.md) · [다음](../19.%20find%20%26%20glob/README.md)

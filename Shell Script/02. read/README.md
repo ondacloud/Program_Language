@@ -40,6 +40,4 @@ Hello Alice
 
 ---
 
----
-
 [전체 목차](../README.md) · [이전](../01.%20printf/README.md) · [다음](../03.%20if%20%26%20elif%20%26%20else/README.md)

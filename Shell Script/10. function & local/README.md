@@ -45,8 +45,4 @@ greet를 인수 없이 호출해 기본값 guest를 확인하세요.
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../09.%20continue/README.md) · [다음](../11.%20return/README.md)

@@ -39,8 +39,4 @@ bash example.sh one two로 실행하세요. arguments=2가 됩니다.
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../23.%20getopts/README.md)

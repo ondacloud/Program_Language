@@ -50,8 +50,4 @@ true && false || printf로 실행 경로를 확인하고 if/else로 의도를 �
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../15.%20test%20%26%20comparison/README.md) · [다음](../17.%20set%20%26%20positional%20parameters/README.md)

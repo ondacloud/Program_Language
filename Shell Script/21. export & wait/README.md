@@ -44,8 +44,4 @@ joined
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../20.%20trap%20%26%20set/README.md) · [다음](../22.%20grep%20%26%20sed%20%26%20awk/README.md)

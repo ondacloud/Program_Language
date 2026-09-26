@@ -41,8 +41,4 @@ here-document 구분자를 작은따옴표로 감싸면 본문 변수 확장을 
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../21.%20export%20%26%20wait/README.md) · [다음](../23.%20getopts/README.md)

@@ -50,8 +50,4 @@ not empty
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../14.%20parameter%20expansion/README.md) · [다음](../16.%20logical%20operator%20%26%20exit%20status/README.md)

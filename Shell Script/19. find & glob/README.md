@@ -43,8 +43,4 @@ a file.txt
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../18.%20pipe%20%26%20redirect/README.md) · [다음](../20.%20trap%20%26%20set/README.md)

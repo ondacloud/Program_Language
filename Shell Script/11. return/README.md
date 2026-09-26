@@ -46,8 +46,4 @@ return 24는 계산값 24를 반환하는 대신 상태 코드를 설정합니�
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../10.%20function%20%26%20local/README.md) · [다음](../12.%20array%20%26%20declare/README.md)

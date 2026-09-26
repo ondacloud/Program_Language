@@ -42,8 +42,4 @@ printf 'Hello %s\n' "$name"
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../22.%20grep%20%26%20sed%20%26%20awk/README.md) · [다음](../24.%20bash%20%26%20shebang/README.md)

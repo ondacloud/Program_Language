@@ -42,8 +42,4 @@ Alice=90
 
 ---
 
----
-
----
-
 [전체 목차](../README.md) · [이전](../11.%20return/README.md) · [다음](../13.%20variable%20%26%20quoting/README.md)

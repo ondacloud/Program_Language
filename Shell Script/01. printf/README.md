@@ -41,6 +41,4 @@ count=3
 
 ---
 
----
-
 [전체 목차](../README.md) · [이전](../00.%20operator/README.md) · [다음](../02.%20read/README.md)
