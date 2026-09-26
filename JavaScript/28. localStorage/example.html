@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>학습 예제</title>
+
+</head>
+<body>
+<h1>저장소 연습</h1><button id="save">연습 값 저장</button><button id="clear">연습 값 삭제</button><p id="status" role="status">준비</p>
+<script type="module">const key = "study-demo-preference";
+const status = document.querySelector("#status");
+document.querySelector("#save").addEventListener("click", () => {
+  try {
+    localStorage.setItem(key, JSON.stringify({ theme: "dark" }));
+    const value = JSON.parse(localStorage.getItem(key));
+    status.textContent = value.theme;
+  } catch { status.textContent = "저장소 사용 불가"; }
+});
+document.querySelector("#clear").addEventListener("click", () => {
+  try { localStorage.removeItem(key); status.textContent = "삭제 완료"; }
+  catch { status.textContent = "삭제 실패"; }
+});</script>
+</body>
+</html>

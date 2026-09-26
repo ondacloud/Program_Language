@@ -1,0 +1,5 @@
+print(7 / 2, 7 // 2, -7 // 2, -7 % 2)
+print(2 ** 3, 3 < 5, not [])
+print("" or "guest")
+print([1] and "ready")
+print(~15)

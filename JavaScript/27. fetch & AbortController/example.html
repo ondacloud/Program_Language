@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>학습 예제</title>
+
+</head>
+<body>
+<h1>데이터 읽기</h1><button id="load">불러오기</button><p id="status" role="status">준비</p>
+<script type="module">const status = document.querySelector("#status");
+let controller;
+document.querySelector("#load").addEventListener("click", async () => {
+  controller?.abort();
+  const current = new AbortController();
+  controller = current;
+  status.textContent = "불러오는 중";
+  try {
+    const response = await fetch("./data.json", { signal: current.signal });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    if (typeof data.name !== "string") throw new Error("잘못된 데이터");
+    if (!current.signal.aborted) status.textContent = data.name;
+  } catch (error) {
+    if (error.name !== "AbortError") status.textContent = error.message;
+  }
+});</script>
+</body>
+</html>

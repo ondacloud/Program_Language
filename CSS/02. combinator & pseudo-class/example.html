@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>학습 예제</title>
+  <style>.items > li { padding: 4px; }
+.items > li.active { color: rgb(0 128 0); }
+.items > li + li { border-top: 1px solid gray; }
+input[type="text"]:focus { outline: 3px solid blue; }
+li:first-child::before { content: "★ "; }</style>
+</head>
+<body>
+<main><h1>선택자</h1><ul class="items"><li>첫째</li><li class="active">둘째</li><li>셋째</li></ul>
+<label>이름 <input type="text"></label><p>뒤 문단</p></main>
+
+</body>
+</html>

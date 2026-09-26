@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grid — 행과 열 배치</title>
+  <style>.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.card { padding: 1rem; background: #dbeafe; }
+@media (max-width: 40rem) { .grid { grid-template-columns: 1fr; } }</style>
+</head>
+<body>
+<div class="grid"><article class="card">HTML</article><article class="card">CSS</article><article class="card">JavaScript</article></div>
+
+</body>
+</html>

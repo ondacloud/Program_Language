@@ -1,0 +1,134 @@
+[package]
+name = "rust-learning-notes"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.90"
+publish = false
+
+[[example]]
+name = "hello"
+path = "31. cargo & fn main/example.rs"
+
+[[example]]
+name = "variables"
+path = "12. let & mut/example.rs"
+
+[[example]]
+name = "control"
+path = "06. while/example.rs"
+
+[[example]]
+name = "functions"
+path = "10. fn & return/example.rs"
+
+[[example]]
+name = "ownership"
+path = "15. move & clone/example.rs"
+
+[[example]]
+name = "borrowing"
+path = "16. reference & mut reference/example.rs"
+
+[[example]]
+name = "strings"
+path = "17. String & str/example.rs"
+
+[[example]]
+name = "structs"
+path = "18. struct & impl/example.rs"
+
+[[example]]
+name = "enums"
+path = "19. enum & Option/example.rs"
+
+[[example]]
+name = "errors"
+path = "24. Result & Ok & Err/example.rs"
+
+[[example]]
+name = "collections"
+path = "20. Vec & HashMap/example.rs"
+
+[[example]]
+name = "traits"
+path = "21. trait & generic/example.rs"
+
+[[example]]
+name = "lifetimes"
+path = "22. lifetime/example.rs"
+
+[[example]]
+name = "iterators"
+path = "23. iter & map & filter/example.rs"
+
+[[example]]
+name = "modules"
+path = "25. mod & pub & use/example.rs"
+
+[[example]]
+name = "files"
+path = "26. fs.read_to_string/example.rs"
+
+[[example]]
+name = "tests"
+path = "27. test & assert_eq!/example.rs"
+
+[[example]]
+name = "concurrency"
+path = "28. thread.spawn & mpsc/example.rs"
+
+[[example]]
+name = "smart-pointers"
+path = "29. Box & Rc & RefCell & Arc/example.rs"
+
+[[example]]
+name = "async-boundaries"
+path = "30. async & Future/example.rs"
+
+[[example]]
+name = "scalar-types"
+path = "13. i32 & f64 & bool & char/example.rs"
+
+[[example]]
+name = "arithmetic-operators"
+path = "00. operator/example.rs"
+
+[[example]]
+name = "bits-checked-arithmetic"
+path = "14. bitwise operator & checked_add/example.rs"
+
+[[example]]
+name = "branching-patterns"
+path = "03. if & else/example.rs"
+
+[[example]]
+name = "loop-fundamentals"
+path = "05. for/example.rs"
+
+[[example]]
+name = "arrays-tuples-constants"
+path = "11. array & tuple/example.rs"
+
+[[example]]
+name = "formatted-output"
+path = "01. print! & println!/example.rs"
+
+[[example]]
+name = "stdin-input"
+path = "02. stdin & read_line/example.rs"
+
+[[example]]
+name = "syntax-match"
+path = "04. match/example.rs"
+
+[[example]]
+name = "syntax-loop"
+path = "07. loop/example.rs"
+
+[[example]]
+name = "syntax-break"
+path = "08. break/example.rs"
+
+[[example]]
+name = "syntax-continue"
+path = "09. continue/example.rs"

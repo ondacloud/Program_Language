@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>선택자와 상태</title>
+  <style>.list > li { padding: .5rem; }
+.list > li:first-child { font-weight: 700; }
+button:hover { background: #dbeafe; }
+button:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 3px; }
+.tag::before { content: "#"; }</style>
+</head>
+<body>
+<ul class="list"><li class="tag">HTML</li><li>CSS</li></ul><button type="button">초점 확인</button>
+
+</body>
+</html>

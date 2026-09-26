@@ -1,0 +1,1 @@
+print("abbaaHello".lstrip("ab"))

@@ -1,0 +1,1 @@
+print("Helloabba".rstrip("ab"))

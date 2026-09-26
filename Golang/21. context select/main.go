@@ -1,0 +1,17 @@
+package main
+
+import (
+    "fmt"
+    "context"
+)
+
+func main() {
+    ctx, cancel := context.WithCancel(context.Background())
+    cancel()
+    select {
+    case <-ctx.Done():
+        fmt.Println(ctx.Err())
+    default:
+        fmt.Println("working")
+    }
+}

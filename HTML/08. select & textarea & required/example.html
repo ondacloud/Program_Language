@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>입력 종류와 제약 조건</title>
+
+</head>
+<body>
+<h1>예약 옵션</h1>
+<form action="#">
+  <fieldset><legend>참여 방식</legend>
+    <label><input type="radio" name="mode" value="online" checked> 온라인</label>
+    <label><input type="radio" name="mode" value="offline"> 오프라인</label>
+  </fieldset>
+  <p><label for="count">인원 (1~5)</label><input id="count" name="count" type="number" min="1" max="5" value="1" required></p>
+  <p><label for="level">난이도</label><select id="level" name="level"><option value="basic">기초</option><option value="advanced">심화</option></select></p>
+  <button>확인</button>
+</form>
+
+</body>
+</html>

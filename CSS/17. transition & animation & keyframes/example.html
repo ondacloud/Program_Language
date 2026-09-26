@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>전환, 애니메이션, 움직임 감소</title>
+  <style>button { padding: 1rem; transition: transform .15s ease, background-color .15s ease; }
+button:hover { transform: translateY(-2px); background: #dbeafe; }
+button:focus-visible { outline: 3px solid #1d4ed8; }
+@media (prefers-reduced-motion: reduce) { button { transition: none; } button:hover { transform: none; } }</style>
+</head>
+<body>
+<button type="button">마우스를 올려 보세요</button>
+
+</body>
+</html>

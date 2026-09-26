@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>학습 예제</title>
+
+</head>
+<body>
+<h1>인사</h1>
+<form id="greeting"><label for="name">이름</label><input id="name" name="name" required><button>확인</button></form>
+<p id="result" role="status"></p>
+<script type="module">const form = document.querySelector("#greeting");
+form.addEventListener("submit", event => {
+  event.preventDefault();
+  const data = new FormData(form);
+  const name = String(data.get("name") ?? "").trim();
+  document.querySelector("#result").textContent = name ? `Hello ${name}` : "이름을 입력하세요";
+});</script>
+</body>
+</html>

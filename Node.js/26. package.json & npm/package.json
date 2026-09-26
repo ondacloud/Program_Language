@@ -1,0 +1,10 @@
+{
+  "name": "node-study-package",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node example.mjs",
+    "check": "node --check example.mjs"
+  }
+}

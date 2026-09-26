@@ -1,0 +1,10 @@
+import { EventEmitter } from "node:events";
+const events = new EventEmitter();
+const listener = value => console.log(`value=${value}`);
+events.on("data", listener);
+events.once("ready", () => console.log("ready"));
+events.emit("ready");
+events.emit("ready");
+events.emit("data", 3);
+events.off("data", listener);
+console.log(events.listenerCount("data"));

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>폼 스타일과 초점 표시</title>
+  <style>body { font-family: system-ui; }
+label { display: block; margin-bottom: .5rem; }
+input { font: inherit; padding: .6rem; border: 2px solid #64748b; border-radius: .3rem; }
+input:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
+.hint { color: #475569; }
+button { margin-top: 1rem; padding: .6rem 1rem; font: inherit; }</style>
+</head>
+<body>
+<form><label for="email">이메일</label><input id="email" name="email" type="email" aria-describedby="hint" required><p class="hint" id="hint">예: student@example.com</p><button>확인</button></form>
+
+</body>
+</html>
