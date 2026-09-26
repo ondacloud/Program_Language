@@ -1,0 +1,12 @@
+CREATE TABLE accounts (id INTEGER PRIMARY KEY, balance INTEGER NOT NULL CHECK (balance >= 0));
+INSERT INTO accounts VALUES (1, 100), (2, 0);
+BEGIN;
+UPDATE accounts SET balance = balance - 30 WHERE id = 1;
+UPDATE accounts SET balance = balance + 30 WHERE id = 2;
+ROLLBACK;
+SELECT id, balance FROM accounts ORDER BY id;
+BEGIN;
+UPDATE accounts SET balance = balance - 30 WHERE id = 1;
+UPDATE accounts SET balance = balance + 30 WHERE id = 2;
+COMMIT;
+SELECT id, balance FROM accounts ORDER BY id;

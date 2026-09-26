@@ -1,0 +1,5 @@
+set.seed(42)
+first <- sample(1:10, 3, replace = FALSE)
+set.seed(42)
+second <- sample(1:10, 3, replace = FALSE)
+cat(identical(first, second), length(unique(first)), "\n")

@@ -1,0 +1,5 @@
+m <- matrix(1:6, nrow = 2)
+cat(m[1, 2], "\n")
+cat(rowSums(m), "\n")
+cat(dim(m), "\n")
+cat(as.vector(matrix(c(1, 2), nrow = 1) %*% matrix(c(3, 4), ncol = 1)), "\n")

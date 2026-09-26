@@ -1,0 +1,6 @@
+data <- data.frame(team = c("A", "A", "B"), score = c(10, 20, 40))
+totals <- aggregate(score ~ team, data = data, FUN = sum)
+labels <- data.frame(team = c("A", "B"), label = c("alpha", "beta"))
+result <- merge(totals, labels, by = "team", sort = TRUE)
+cat(result$label, "\n")
+cat(result$score, "\n")

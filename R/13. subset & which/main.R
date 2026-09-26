@@ -1,0 +1,5 @@
+values <- c(a = 10, b = 20, c = 30)
+cat(values[c(1, 3)], "\n")
+cat(values[values >= 20], "\n")
+cat(which(values >= 20), "\n")
+cat(values[-2], "\n")

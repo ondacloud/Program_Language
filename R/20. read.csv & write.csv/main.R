@@ -1,0 +1,7 @@
+data <- read.csv("sample.csv", stringsAsFactors = FALSE)
+cat(sum(data$score), "\n")
+path <- tempfile(fileext = ".csv")
+write.csv(data, path, row.names = FALSE)
+copy <- read.csv(path, stringsAsFactors = FALSE)
+cat(identical(data, copy), "\n")
+unlink(path)

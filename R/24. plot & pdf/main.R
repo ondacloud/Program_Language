@@ -1,0 +1,6 @@
+path <- tempfile(fileext = ".pdf")
+pdf(path)
+plot(1:4, c(1, 4, 9, 16), type = "b", xlab = "x", ylab = "x squared")
+invisible(dev.off())
+cat(file.exists(path), file.info(path)$size > 0, "\n")
+unlink(path)
