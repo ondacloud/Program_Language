@@ -10,8 +10,6 @@ DataBase/
 ├── MongoDB/         # MongoDB 8.0 / mongosh — 14개 장
 ├── Redis/           # Redis 7.4 / redis-cli — 14개 장
 ├── compose.yaml
-├── lab.py
-├── LAB.md
 ├── DESIGN.md
 └── README.md
 ```
