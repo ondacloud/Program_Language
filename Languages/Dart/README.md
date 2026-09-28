@@ -6,19 +6,15 @@
 
 학습 문법 기준은 **Dart 3.4 이상**입니다. Dart SDK 또는 Flutter에 포함된 Dart SDK가 필요합니다. 콘솔·파일 예제는 VM에서 실행하며 Flutter·브라우저 프로젝트가 필요하지 않습니다.
 
-다음 명령은 **Dart 과정 루트**에서 실행합니다. SDK 실행 파일을 PATH에 추가하세요. Python 검증기는 선택 사항이며 Python 3.10 이상이 필요합니다.
+다음 명령은 **Dart 과정 루트**에서 실행합니다. SDK 실행 파일을 PATH에 추가하세요.
 
 ```powershell
 dart --version
 dart pub get
 dart analyze
-dart run "00. operator/main.dart"
-python verify.py
 ```
 
 [Dart SDK 설치](https://dart.dev/get-dart). Flutter를 학습할 때는 이 언어 기초를 먼저 익힌 뒤 [Flutter 과정](../../Frameworks/Mobile/Flutter/README.md)으로 이어가세요.
-
-입력 예제는 터미널에서 값을 입력하고 Enter를 누릅니다. 파일 처리 예제는 직접 생성한 임시 디렉터리만 사용한 뒤 정리합니다. `verify.py`는 30개 프로그램을 각각 실행하여 정상 입력의 표준 출력과 예상 결과를 비교합니다. SDK 미설치 시 준비 안내를 표시합니다.
 
 ## 문법·함수별 목차
 

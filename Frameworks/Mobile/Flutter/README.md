@@ -12,7 +12,6 @@
 flutter --version
 flutter doctor
 flutter devices
-python run.py "00. operator/main.dart"
 ```
 
 실행기는 `.playground`에 웹 프로젝트를 한 번 만들고 선택한 파일을 `lib/main.dart`로 복사한 뒤 `flutter run -d chrome`을 실행합니다. Chrome 대신 지원되는 기기를 쓰려면 `--device` 옵션을 지정하세요. 예: `--device edge`. `.playground/lib/main.dart`의 수동 수정은 다음 선택 때 덮어써지므로 원본 장 파일을 수정하세요. 실행 중 `q`로 종료한 뒤 다른 장을 선택합니다. Android/iOS는 해당 플랫폼 SDK 설정이 추가로 필요합니다.
