@@ -1,0 +1,10 @@
+CREATE TEMPORARY TABLE scores (id INTEGER PRIMARY KEY, name VARCHAR(30) NOT NULL, team VARCHAR(10), score INTEGER);
+INSERT INTO scores VALUES (1, 'Mina', 'A', 80), (2, 'Jin', 'A', 60), (3, 'Sol', 'B', 90);
+START TRANSACTION;
+UPDATE scores SET score = 0 WHERE id = 1;
+ROLLBACK;
+SELECT score FROM scores WHERE id = 1;
+START TRANSACTION;
+UPDATE scores SET score = 81 WHERE id = 1;
+COMMIT;
+SELECT score FROM scores WHERE id = 1;

@@ -1,0 +1,5 @@
+DEL course:set:a course:set:b
+SADD course:set:a sql web sql
+SADD course:set:b web db
+SISMEMBER course:set:a sql
+SINTER course:set:a course:set:b

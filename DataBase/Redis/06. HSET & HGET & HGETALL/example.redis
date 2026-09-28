@@ -1,0 +1,5 @@
+DEL course:user
+HSET course:user name Mina score 80
+HGET course:user name
+HINCRBY course:user score 5
+HGETALL course:user

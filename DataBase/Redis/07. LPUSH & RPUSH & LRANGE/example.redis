@@ -1,0 +1,5 @@
+DEL course:queue
+RPUSH course:queue first second
+LPUSH course:queue zero
+LRANGE course:queue 0 -1
+LPOP course:queue

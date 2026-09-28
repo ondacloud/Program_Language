@@ -1,0 +1,2 @@
+SET course:name Mina
+GET course:name

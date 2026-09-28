@@ -1,0 +1,182 @@
+[
+  {
+    "folder": "00. operator",
+    "filename": "Program.cs",
+    "expected": "9\n3\n3.5\n1\nTrue",
+    "input": null
+  },
+  {
+    "folder": "01. Console.WriteLine & Console.Write",
+    "filename": "Program.cs",
+    "expected": "Hello, Mina\nlength: 4",
+    "input": null
+  },
+  {
+    "folder": "02. Console.ReadLine & TryParse",
+    "filename": "Program.cs",
+    "expected": "81",
+    "input": "80"
+  },
+  {
+    "folder": "03. if & else",
+    "filename": "Program.cs",
+    "expected": "pass",
+    "input": null
+  },
+  {
+    "folder": "04. switch & case",
+    "filename": "Program.cs",
+    "expected": "saved",
+    "input": null
+  },
+  {
+    "folder": "05. for",
+    "filename": "Program.cs",
+    "expected": "6",
+    "input": null
+  },
+  {
+    "folder": "06. foreach",
+    "filename": "Program.cs",
+    "expected": "Mina\nJin",
+    "input": null
+  },
+  {
+    "folder": "07. while",
+    "filename": "Program.cs",
+    "expected": "3\n2\n1",
+    "input": null
+  },
+  {
+    "folder": "08. do while",
+    "filename": "Program.cs",
+    "expected": "0",
+    "input": null
+  },
+  {
+    "folder": "09. break & continue",
+    "filename": "Program.cs",
+    "expected": "1\n3",
+    "input": null
+  },
+  {
+    "folder": "10. var & const & readonly",
+    "filename": "Program.cs",
+    "expected": "Mina: 85/100",
+    "input": null
+  },
+  {
+    "folder": "11. method & return",
+    "filename": "Program.cs",
+    "expected": "Hi, Mina\n5",
+    "input": null
+  },
+  {
+    "folder": "12. array & Length",
+    "filename": "Program.cs",
+    "expected": "3\n70,80,90",
+    "input": null
+  },
+  {
+    "folder": "13. List & Add & Remove",
+    "filename": "Program.cs",
+    "expected": "2\nMina,Sol",
+    "input": null
+  },
+  {
+    "folder": "14. Dictionary & HashSet",
+    "filename": "Program.cs",
+    "expected": "80\n2",
+    "input": null
+  },
+  {
+    "folder": "15. nullable & null coalescing",
+    "filename": "Program.cs",
+    "expected": "0\n4",
+    "input": null
+  },
+  {
+    "folder": "16. class & constructor & property",
+    "filename": "Program.cs",
+    "expected": "Mina: 80",
+    "input": null
+  },
+  {
+    "folder": "17. virtual & override & base",
+    "filename": "Program.cs",
+    "expected": "sound: woof",
+    "input": null
+  },
+  {
+    "folder": "18. interface & class",
+    "filename": "Program.cs",
+    "expected": "Hello, Mina",
+    "input": null
+  },
+  {
+    "folder": "19. record & with",
+    "filename": "Program.cs",
+    "expected": "Mina: 80\nMina: 90",
+    "input": null
+  },
+  {
+    "folder": "20. enum & switch expression",
+    "filename": "Program.cs",
+    "expected": "go",
+    "input": null
+  },
+  {
+    "folder": "21. generic & where",
+    "filename": "Program.cs",
+    "expected": "80\n7",
+    "input": null
+  },
+  {
+    "folder": "22. Where & Select & Aggregate",
+    "filename": "Program.cs",
+    "expected": "81,91\n230",
+    "input": null
+  },
+  {
+    "folder": "23. Func & Action & event",
+    "filename": "Program.cs",
+    "expected": "6\nchanged: 1",
+    "input": null
+  },
+  {
+    "folder": "24. try & catch & finally",
+    "filename": "Program.cs",
+    "expected": "invalid number\ndone",
+    "input": null
+  },
+  {
+    "folder": "25. using & IDisposable",
+    "filename": "Program.cs",
+    "expected": "using\ndisposed",
+    "input": null
+  },
+  {
+    "folder": "26. Task & async & await",
+    "filename": "Program.cs",
+    "expected": "80,90",
+    "input": null
+  },
+  {
+    "folder": "27. IAsyncEnumerable & yield return",
+    "filename": "Program.cs",
+    "expected": "1\n2\n3",
+    "input": null
+  },
+  {
+    "folder": "28. File & Directory",
+    "filename": "Program.cs",
+    "expected": "Hello C#",
+    "input": null
+  },
+  {
+    "folder": "29. namespace & using",
+    "filename": "Program.cs",
+    "expected": "5",
+    "input": null
+  }
+]

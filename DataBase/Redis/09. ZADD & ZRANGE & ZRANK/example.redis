@@ -1,0 +1,4 @@
+DEL course:rank
+ZADD course:rank 80 Mina 60 Jin 90 Sol
+ZRANGE course:rank 0 -1 REV WITHSCORES
+ZREVRANK course:rank Sol

@@ -1,0 +1,182 @@
+[
+  {
+    "folder": "00. operator",
+    "filename": "main.dart",
+    "expected": "9\n3.5\n3\n1\ntrue",
+    "input": null
+  },
+  {
+    "folder": "01. print",
+    "filename": "main.dart",
+    "expected": "Hello, Mina\nnext: 81",
+    "input": null
+  },
+  {
+    "folder": "02. stdin.readLineSync",
+    "filename": "main.dart",
+    "expected": "Hello, Mina",
+    "input": "Mina"
+  },
+  {
+    "folder": "03. if & else",
+    "filename": "main.dart",
+    "expected": "pass",
+    "input": null
+  },
+  {
+    "folder": "04. switch & case",
+    "filename": "main.dart",
+    "expected": "saved",
+    "input": null
+  },
+  {
+    "folder": "05. for",
+    "filename": "main.dart",
+    "expected": "6",
+    "input": null
+  },
+  {
+    "folder": "06. for in",
+    "filename": "main.dart",
+    "expected": "Mina\nJin",
+    "input": null
+  },
+  {
+    "folder": "07. while",
+    "filename": "main.dart",
+    "expected": "3\n2\n1",
+    "input": null
+  },
+  {
+    "folder": "08. do while",
+    "filename": "main.dart",
+    "expected": "0",
+    "input": null
+  },
+  {
+    "folder": "09. break & continue",
+    "filename": "main.dart",
+    "expected": "1\n3",
+    "input": null
+  },
+  {
+    "folder": "10. var & final & const",
+    "filename": "main.dart",
+    "expected": "85 / 100\nMina,Jin",
+    "input": null
+  },
+  {
+    "folder": "11. int.tryParse & double.parse",
+    "filename": "main.dart",
+    "expected": "80\n-1\n3.5",
+    "input": null
+  },
+  {
+    "folder": "12. function & return",
+    "filename": "main.dart",
+    "expected": "Hi, Mina\n5",
+    "input": null
+  },
+  {
+    "folder": "13. List & add & spread",
+    "filename": "main.dart",
+    "expected": "[0, 60, 80, 90]",
+    "input": null
+  },
+  {
+    "folder": "14. Map & Set",
+    "filename": "main.dart",
+    "expected": "80\n0\n2",
+    "input": null
+  },
+  {
+    "folder": "15. where & map & fold",
+    "filename": "main.dart",
+    "expected": "[81, 91]\n230",
+    "input": null
+  },
+  {
+    "folder": "16. null safety & optional access",
+    "filename": "main.dart",
+    "expected": "0\n4",
+    "input": null
+  },
+  {
+    "folder": "17. class & constructor",
+    "filename": "main.dart",
+    "expected": "Mina: 80\nguest: 0",
+    "input": null
+  },
+  {
+    "folder": "18. get & set",
+    "filename": "main.dart",
+    "expected": "20",
+    "input": null
+  },
+  {
+    "folder": "19. extends & override",
+    "filename": "main.dart",
+    "expected": "woof",
+    "input": null
+  },
+  {
+    "folder": "20. abstract interface class & implements",
+    "filename": "main.dart",
+    "expected": "Hello, Mina",
+    "input": null
+  },
+  {
+    "folder": "21. mixin & with",
+    "filename": "main.dart",
+    "expected": "[course] ready",
+    "input": null
+  },
+  {
+    "folder": "22. enum & switch expression",
+    "filename": "main.dart",
+    "expected": "go",
+    "input": null
+  },
+  {
+    "folder": "23. generic",
+    "filename": "main.dart",
+    "expected": "80\nnull",
+    "input": null
+  },
+  {
+    "folder": "24. records & patterns",
+    "filename": "main.dart",
+    "expected": "Mina: 80",
+    "input": null
+  },
+  {
+    "folder": "25. try & on & catch & finally",
+    "filename": "main.dart",
+    "expected": "invalid number\ndone",
+    "input": null
+  },
+  {
+    "folder": "26. Future & async & await",
+    "filename": "main.dart",
+    "expected": "[80, 90]",
+    "input": null
+  },
+  {
+    "folder": "27. Stream & async for & yield",
+    "filename": "main.dart",
+    "expected": "1\n2\n3",
+    "input": null
+  },
+  {
+    "folder": "28. File & Directory",
+    "filename": "main.dart",
+    "expected": "Hello Dart",
+    "input": null
+  },
+  {
+    "folder": "29. import & export",
+    "filename": "main.dart",
+    "expected": "5",
+    "input": null
+  }
+]

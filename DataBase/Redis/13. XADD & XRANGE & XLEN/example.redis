@@ -1,0 +1,5 @@
+DEL course:events
+XADD course:events * kind signup user Mina
+XADD course:events * kind login user Mina
+XLEN course:events
+XRANGE course:events - +

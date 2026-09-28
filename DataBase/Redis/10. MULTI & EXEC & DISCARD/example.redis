@@ -1,0 +1,9 @@
+SET course:tx 10
+MULTI
+INCRBY course:tx 5
+GET course:tx
+EXEC
+MULTI
+SET course:tx 0
+DISCARD
+GET course:tx

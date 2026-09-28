@@ -1,0 +1,5 @@
+SET course:temp value
+EXISTS course:temp
+TYPE course:temp
+DEL course:temp
+EXISTS course:temp

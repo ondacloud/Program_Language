@@ -1,0 +1,4 @@
+SET course:session token EX 60
+TTL course:session
+EXPIRE course:session 120
+TTL course:session

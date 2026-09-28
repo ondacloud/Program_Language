@@ -1,0 +1,3 @@
+SET course:scan:a 1
+SET course:scan:b 2
+SCAN 0 MATCH course:scan:* COUNT 100

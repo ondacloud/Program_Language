@@ -1,0 +1,14 @@
+{
+  "name": "typescript-course",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "example": "tsx"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "tsx": "4.20.6",
+    "@types/node": "22.19.0"
+  }
+}

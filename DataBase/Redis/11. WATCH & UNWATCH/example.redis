@@ -1,0 +1,7 @@
+SET course:watch 10
+WATCH course:watch
+GET course:watch
+MULTI
+SET course:watch 11
+EXEC
+GET course:watch

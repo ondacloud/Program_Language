@@ -1,0 +1,7 @@
+void main() {
+  var count = 3;
+  while (count > 0) {
+    print(count);
+    count--;
+  }
+}

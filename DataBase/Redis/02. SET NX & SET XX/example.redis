@@ -1,0 +1,5 @@
+DEL course:condition
+SET course:condition first NX
+SET course:condition second NX
+SET course:condition third XX
+GET course:condition

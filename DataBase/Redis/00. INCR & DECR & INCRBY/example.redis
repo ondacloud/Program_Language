@@ -1,0 +1,5 @@
+SET course:counter 10
+INCR course:counter
+DECR course:counter
+INCRBY course:counter 5
+GET course:counter

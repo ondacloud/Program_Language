@@ -1,0 +1,1 @@
+export default async function Page({ searchParams }: { searchParams: Promise<{ q?: string | string[] }> }) { const params = await searchParams; const q = typeof params.q === "string" ? params.q : ""; return <><form><label>Search <input name="q" defaultValue={q} /></label><button>Search</button></form><p>Query: {q || "all"}</p></>; }
